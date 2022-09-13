@@ -21,9 +21,20 @@ Based on the linear regression summary, there are three questions that need to b
 The vehicle length and ground clearance are the two parameters that are the most statistically unlikely
 to provide random amounts of variance to the linear model due to the incredibly small associated probability 
 values seen in the final column. This means these parameters significantly impact the mpg. The intercept is 
-also statistically significant here meaning a significant amount of variability in the dependent variable
-when all independent variables are equal to zero. 
+also statistically significant here meaning there is a significant amount of variability in the dependent 
+variable when all independent variables are equal to zero. 
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
+The slope of the linear model is not considered to be zero because the model shows that several of the 
+independent variables had a significant effect on the dependent variable. A slope of zero would indicate 
+that none of the independent variables had an affect on the dependent variable.  
+
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+This linear model effectively predicts the mpg of MechaCar prototypes because the R-squared value of
+.7149 demonstrates how well the data fits the model. In other words, this model is approximately 71.5%
+effective at predicting the mpg, taking all six variables into consideration, while the p-value remained 
+significant. 
+
+## Summary Statistics on Suspension Coils
