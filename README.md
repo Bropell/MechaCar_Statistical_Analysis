@@ -45,9 +45,9 @@ grouped by the manufacturing lot number. Images of each table can be seen below.
 <h3 align="center">Total Summary Table</h3>
 <p align="center">
     <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary.png"/>
-</p>
+</p><br>
 
-### Lot Summary Table
+<h3 align="center">Lot Summary Table</h3>
 <p align="center">
     <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.png"/>
 </p>
