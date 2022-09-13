@@ -38,3 +38,16 @@ effective at predicting the mpg, taking all six variables into consideration, wh
 significant. 
 
 ## Summary Statistics on Suspension Coils
+The second task was to create two summary statistic tables. One table shows the suspension coil's PSI
+continuous variable across all manufacturing lots and the other table shows the same parameters but is
+grouped by the manufacturing lot number. Images of each table can be seen below.
+
+#### Total Summary Table
+<p align="center">
+    <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary.png"/>
+</p>
+
+#### Lot Summary Table
+<p align="center">
+    <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.png"/>
+</p>
