@@ -64,3 +64,12 @@ total summary table. The variance here is approximately 62.29 PSI which is withi
 table, it seems that Lot 3 exceeds the variance allowed with a value of approximately 170 PSI.     
 
 ## T-Tests on Suspension Coils
+The third task was to use the T-test function to determine if the PSI across all manufacturing lots is 
+statistically different from the population mean of 1,500 pounds per square inch. Based on the image below,
+which is the output from the T-test, there is a p-value over .05 meaning we would fail to reject the null 
+hypothesis stating that there is a statistical difference betweeen all lots and the mean.
+
+<h3 align="center">T-Test All Lots</h3>
+<p align="center">
+    <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/T-test_all_lots.png"/>
+</p><br>
