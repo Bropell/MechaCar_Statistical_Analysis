@@ -66,10 +66,30 @@ table, it seems that Lot 3 exceeds the variance allowed with a value of approxim
 ## T-Tests on Suspension Coils
 The third task was to use the T-test function to determine if the PSI across all manufacturing lots is 
 statistically different from the population mean of 1,500 pounds per square inch. Based on the image below,
-which is the output from the T-test, there is a p-value over .05 meaning we would fail to reject the null 
-hypothesis stating that there is a statistical difference betweeen all lots and the mean.
+which is the output from the T-test, and using a 95% significance level, there is a p-value over .05 meaning 
+we would fail to reject the null hypothesis stating that there is a statistical difference betweeen all lots 
+and the mean.
 
 <h3 align="center">T-Test All Lots</h3>
 <p align="center">
     <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/T-test_all_lots.png"/>
+</p><br>
+
+In addition to the first T-test, subsequent T-tests were done for the same parameters using the subset
+argument to determine if the PSI for each manufacturing lot is statistically different from the population
+mean of 1,500 pounds oer square inch. The images for each T-test is provided below. 
+
+<h3 align="center">T-Test Lot 1</h3>
+<p align="center">
+    <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/T-test_lot1.png"/>
+</p><br>
+
+<h3 align="center">T-Test Lot 2</h3>
+<p align="center">
+    <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/T-test_lot2.png"/>
+</p><br>
+
+<h3 align="center">T-Test Lot 3</h3>
+<p align="center">
+    <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/T-test_lot3.png"/>
 </p><br>
