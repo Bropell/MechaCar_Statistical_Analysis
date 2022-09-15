@@ -100,3 +100,32 @@ those specific lots and the mean. However, for lot 3 the p-value is below .05 me
 is rejected and therefore, the two means are statistically different.  
 
 ## Study Design: MechaCar vs Competition 
+The final task was to design a statistical study to compare the performance of the MechaCar vehicles against 
+the performance of vehicles from other manufacturers. The description of this theoretical study will be 
+outlined by answering the following questions.
+
+- What metric or metrics are you going to test?
+
+City and highway fuel efficiency will be tested as well as the vehicle cost. As someone who does a lot of 
+driving, both city and highway, these parameters are important to consider when choosing a vehicle. Getting
+good fuel efficiency at a great cost would seal the deal and kick the competition.
+
+- What is the null hypothesis or alternative hypothesis?
+
+The null hypothesis is that cars in the same vehicle class as the MechCar would have statistically similar
+fuel efficiencies and cost. The alternative hypothesis would state that fuel efficiencies and cost are 
+statistically different. 
+
+- What statistical test would you use to test the hypothesis? And why?
+
+A multiple linear regression would be used here because there are more than two continuous independent 
+variables being tested against a dependent variable. Each type of fuel efficiency will be compared to
+vehicle costs and amount of variance of the dependent variable accounted for by the combination of 
+independent variables in linear combination will be determined.
+
+- What data is needed to run the statistical test?
+
+Fuel efficiency and associated cost data for a good sample size is needed to run this test. Having data 
+for several cars of the same vehicle class from each competetor manufacturer would be ideal but this may 
+be an impossible ask. Obviously, the larger the sample size, the more efficient this study is determining 
+the performance of the MechaCar against other vehicles in these specific parameters. 
