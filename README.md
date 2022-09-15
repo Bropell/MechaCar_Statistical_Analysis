@@ -67,7 +67,7 @@ table, it seems that Lot 3 exceeds the variance allowed with a value of approxim
 The third task was to use the T-test function to determine if the PSI across all manufacturing lots is 
 statistically different from the population mean of 1,500 pounds per square inch. Based on the image below,
 which is the output from the T-test, and using a 95% significance level, there is a p-value over .05 meaning 
-we would fail to reject the null hypothesis stating that there is a statistical difference betweeen all lots 
+we would fail to reject the null hypothesis and state that there is a statistical similarity betweeen all lots 
 and the mean.
 
 <h3 align="center">T-Test All Lots</h3>
@@ -77,7 +77,7 @@ and the mean.
 
 In addition to the first T-test, subsequent T-tests were done for the same parameters using the subset
 argument to determine if the PSI for each manufacturing lot is statistically different from the population
-mean of 1,500 pounds oer square inch. The images for each T-test is provided below. 
+mean of 1,500 pounds per square inch. The T-test images are provided below. 
 
 <h3 align="center">T-Test Lot 1</h3>
 <p align="center">
@@ -93,3 +93,10 @@ mean of 1,500 pounds oer square inch. The images for each T-test is provided bel
 <p align="center">
     <img src= "https://github.com/Bropell/MechaCar_Statistical_Analysis/blob/main/Resources/T-test_lot3.png"/>
 </p><br>
+
+Based on the images above and using a 95% significance level, there is a p-value over .05 for lots 1 and 2 
+meaning we would fail to reject the null hypothesis and state that there is a statistical similarity betweeen 
+those specific lots and the mean. However, for lot 3 the p-value is below .05 meaning the null hypothesis 
+is rejected and therefore, the two means are statistically different.  
+
+## Study Design: MechaCar vs Competition 
